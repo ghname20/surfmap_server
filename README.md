@@ -6,6 +6,7 @@ The project's main incentive was to handle huge navigation graphs outside of the
 
 This is a SOAP server written in Perl, and it serves SOAP requests and interacts with the surfmap\_storage system.  
 It acts as an intermediary between storage and UI.   
+This is a multithreaded application capable of deferred syncing of the database to disk, while serving user requests.
 
 Currently I have no time to describe it in detail or work out some installation procedure.
 
